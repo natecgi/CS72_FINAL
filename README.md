@@ -15,5 +15,9 @@ For the scale of this task,
 the differential learning rate did not bring much improvement,
 and is hence disabled.
 
-The [wrangling] folder contains jupyter notebook files
+The [wrangling](/wrangling/) folder contains jupyter notebook files
 use for data wrangling.
+
+The [full_pipeline.ipynb](/full_pipeline.ipynb) file contains an embedded web interface for the classifier.
+Since the LLM we used (Qwen3.8-27B) is not deployed locally,
+OpenRouter credentials are required for use.
